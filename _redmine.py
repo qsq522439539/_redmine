@@ -149,7 +149,7 @@ class redmine_:
 if __name__ == "__main__":
 	configs = argumentcheck()
 	redmine_().downloadCsv(configs['projectname'], configs['username'], configs['password'])
-	# redmine_().downloadCsv('BaiBS_RTS','qinshiqiang','12345678')
+
 
 
 
